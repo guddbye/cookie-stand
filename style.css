@@ -1,0 +1,147 @@
+body {
+  background-color: #F7F7FF;
+}
+
+h1 {
+  font-family: 'Josefin Sans', sans-serif;
+  background-color: inherit;
+  font-size: 3em;
+  text-align: center;
+  padding-top: 20px;
+  margin-bottom: 50px;
+}
+
+#familyhero {
+  display: flex;
+  justify-content: center;
+}
+
+header {
+  background-color: #FE5F55;
+  height: 100px;
+  margin-bottom: 30px;
+}
+
+nav {
+  width: 960px;
+  margin: auto;
+}
+
+nav img {
+  float: left;
+  margin-top: 15px;
+  margin-right: 10px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  border: 20px;
+}
+
+nav ul li {
+  margin-top: 50px;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  border: 20px;
+}
+
+a {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 500;
+  text-decoration: none;
+  color: #F7F7FF;
+}
+
+main ul {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border: 20px;
+}
+
+h2 {
+  font-size: 40px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  color: #495867;
+}
+
+h3 {
+  font-size: 25px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  color: #577399;
+}
+
+p {
+  font-size: 18px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  color: #F7F7FF;
+}
+
+
+figcaption {
+ margin-top: 25px;
+}
+
+
+section {
+  background-color: #FE5F55;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#FAQ {
+  color: #F7F7FF;
+}
+
+#store-profiles * {
+  font-family: 'Titan One';
+  background-color: #BDD5EA;
+  border: 5px double #577399;
+  padding: 10px;
+}
+
+th {
+  font-weight:900;
+}
+
+td {
+  text-align: center;
+}
+
+li {
+  font-size: 18px;
+  line-height: 120%;
+  font-family: 'Josefin Sans', sans-serif;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+  color: #495867;
+}
+
+footer {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.5em;
+  padding-top: 20px;
+  text-align: center;
+  padding-right: 10px;
+  height: 50px;
+  background-color: #577399;
+  color: #F7F7FF;
+}
