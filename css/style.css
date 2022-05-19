@@ -1,14 +1,14 @@
 body {
-  background-color: #F7F7FF;
+  background-color: #ffffff;
 }
 
 h1 {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Courier New', sans-serif;
   background-color: inherit;
-  font-size: 3em;
-  text-align: center;
+  font-size: 4em;
+  text-align: left;
   padding-top: 20px;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 #familyhero {
@@ -17,18 +17,18 @@ h1 {
 }
 
 header {
-  background-color: #FE5F55;
-  height: 100px;
+  background-color: #e9c46a;
+  height: 150px;
   margin-bottom: 30px;
 }
 
 nav {
-  width: 960px;
+  width: 950px;
   margin: auto;
 }
 
 nav img {
-  float: left;
+  float: right;
   margin-top: 15px;
   margin-right: 10px;
 }
@@ -40,7 +40,7 @@ nav ul {
 }
 
 nav ul li {
-  margin-top: 50px;
+  margin-top: 20px;
 }
 
 ul {
@@ -50,10 +50,10 @@ ul {
 }
 
 a {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Courier New', sans-serif;
   font-weight: 500;
   text-decoration: none;
-  color: #F7F7FF;
+  color: #ffffff;
 }
 
 main ul {
@@ -64,34 +64,34 @@ main ul {
   border: 20px;
 }
 
-h2 {
+h1 {
   font-size: 40px;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Courier New', sans-serif;
   font-weight: bold;
   text-align: center;
   margin-top: 30px;
   margin-bottom: 15px;
-  color: #495867;
+  color: #e9c46a;
 }
 
 h3 {
   font-size: 25px;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Courier New', sans-serif;
   font-weight: bold;
   text-align: center;
   margin-top: 30px;
   margin-bottom: 15px;
-  color: #577399;
+  color: #e9c46a;
 }
 
 p {
   font-size: 18px;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Courier New', sans-serif;
   font-weight: bold;
   text-align: center;
   margin-top: 30px;
   margin-bottom: 15px;
-  color: #F7F7FF;
+  color: #ffffff;
 }
 
 
@@ -101,7 +101,7 @@ figcaption {
 
 
 section {
-  background-color: #FE5F55;
+  background-color: #2a9d8f;
   padding-top: 30px;
   padding-bottom: 30px;
 }
@@ -111,9 +111,9 @@ section {
 }
 
 #store-profiles * {
-  font-family: 'Titan One';
-  background-color: #BDD5EA;
-  border: 5px double #577399;
+  font-family: 'Courier New';
+  background-color: #ffffff;
+  border: 5px double #e9c46a;
   padding: 10px;
 }
 
@@ -136,12 +136,12 @@ li {
 }
 
 footer {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Courier New', sans-serif;
   font-size: 1.5em;
   padding-top: 20px;
   text-align: center;
   padding-right: 10px;
   height: 50px;
-  background-color: #577399;
+  background-color: #e9c46a;
   color: #F7F7FF;
 }
