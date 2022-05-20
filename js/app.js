@@ -11,8 +11,8 @@ function ranCustomerNum(min, max) {
 let StoreSales = [];
 
 class Store {
-  constructor(name, minCust, maxCust, avgCookiesSale) {
-    this.name = name;
+  constructor(Storename, minCust, maxCust, avgCookiesSale) {
+    this.Storename = Storename;
     this.minCust = minCust;
     this.maxCust = maxCust;
     this.avgCookieSale = avgCookiesSale;
@@ -59,6 +59,7 @@ function cookieStores() {
   }
 }
 
+
 function cookieStuff() {
   let row1 = document.createElement('tr');
   saleSection.appendChild(row1);
@@ -84,3 +85,20 @@ new Store('Lima', 2, 16, 4.6);
 
 cookieStuff();
 cookieStores();
+
+function handleSubmit(event) {
+  event.preventDefault();
+
+  let Location = event.target.Location.value;
+  let minCust = +event.target.minCust.value;
+  let maxCust = +event.target.mincust.value;
+  let avgCookieSale = +event.target.average.value;
+
+  let newStores = new StoreSales(Location, minCust, maxCust, avgCookieSale);
+
+  newStores.render();
+
+}
+
+// eslint-disable-next-line no-undef
+cookForm.addEventListender('Submit', handleSubmit);
