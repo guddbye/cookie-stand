@@ -2,8 +2,6 @@ body {
   background-color: #FFFFFF;
 }
 
-/* Navigation Styling */
-
 header {
   background-color: #596F62;
   height: 100px;
@@ -60,7 +58,6 @@ a:hover {
   padding-bottom: 50px;
 }
 
-/* Shopping Section Styling */
 
 ul {
   display: flex;
@@ -75,7 +72,6 @@ figcaption {
   margin-top: 25px;
 }
 
-/* Text Styles */
 
 h2 {
   font-size: 40px;
@@ -117,7 +113,6 @@ li {
   color: #000000;
 }
 
-/* Sales Table */
 
 #salestable * {
   margin-top: 50px;
@@ -141,7 +136,6 @@ td {
   text-align: center;
 }
 
-/* Store Form */
 
 form {
   font-family: 'Josefin Sans', sans-serif;
@@ -195,8 +189,6 @@ input {
 
 
 
-/* FAQ Section */
-
 section {
   background-color: #70161E;
   padding-top: 30px;
@@ -206,9 +198,6 @@ section {
 #FAQ {
   color: #F7F7FF;
 }
-
-
-/* Footer */
 
 footer {
   font-family: 'Josefin Sans', sans-serif;
