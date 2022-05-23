@@ -1,39 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Sales Sheet</title>
+  <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
-    </style>
+  <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Josefin+Sans:wght@100;200;400;700&display=swap" rel="stylesheet">
+  <title>Fish Cookies</title>
+
 </head>
+
+<header>
+  <nav>
+
+    <ul id="nav-header">
+
+      <img src="img/salmon.png" width="200" height="">
+
+      <li><a href="index.html">Home</a></li>
+      <li><a href="#">About Us</a></li>
+    
+      <img src="img/salmon.png" width="200" height="">
+
+    </ul>
+
+  </nav>
+</header>
+
 <body>
-  <header>
-    <nav><a href="index.html">Home</a></nav>
-  </header>
-  <main id="stores">
-    <table id="table"></table>
-  </main>
+    <main id="table-home">
+      <div id="salestable">
+        <table id="store-profiles"></table>
+      </div>
+    </main>
+
+    <form id="store-form">
 
     <fieldset>
-      <legend>New Store Info</legend>
-      <label for="Location">Location</label>
-      <input id="Location" type="text" name="Location">
-  
-      <label for="min">Minimum Customers</label>
-      <input id="minCust" type="number" name="Minimum Cust. per hour">
-  
-      <label for="max">Maximum Customers</label>
-      <input id="maxCust" type="number" name="Max Cust. per hour">
-  
-      <label for="average">Cookies per hour</label>
-      <input id="average" type="number" name="Average Cookie Sale">
-    </fieldset>
-    <button type="submit" value="Submit">Submit Form</button>
-  </form>
+      <legend>New Store</legend>
+      
+      <label for="storeLocation">Location</label>
+      <input id="storeLocation" type="text" Location="storeLocation">
 
-  <script src="js/app.js"></script>
+      <label for="minCust">Minimum Customers</label>
+      <input id="minCust" type="number" Location="minCust">
+
+      <label for="maxCust">Maximum Customers</label>
+      <input id="maxCust" type="number" Location="maxCust">
+
+      <label for="avgCookieSale">Cookies Per Customer</label>
+      <input id="avgCookieSale" type="avgCookieSale" Location="avgCookieSale">
+    </fieldset>
+
+    <button type="submit">Submit</button>
+
+  </form>
+  <script src="./js/app.js"></script>
+
   </body>
-  <footer></footer>
-  </html>
+
+  <footer>&copy; Fish Cookies</footer>
+
+</html>
